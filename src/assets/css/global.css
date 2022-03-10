@@ -1,0 +1,45 @@
+/* 全局样式 */
+
+html,
+body,
+#app {
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    min-width: 1366px
+}
+
+.el-breadcrumb {
+    margin-bottom: 15px;
+    font-size: 15px;
+}
+
+.el-card {
+    box-shadow: 12px 15px 10px 0px black !important;
+}
+
+.el-dialog {
+    position: relative;
+    margin: 0 auto 50px;
+    background: #fbf3f3;
+    border-radius: 10px;
+}
+
+.el-dialog__title {
+    line-height: 30px;
+    font-size: 25px;
+    color: #303133;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 800;
+}
+
+.add-btn {
+    background-color: rgb(191, 185, 228);
+    font-size: 16px;
+    color: #fff;
+}
+
+.el-cascader-menu {
+    height: 200px;
+}
